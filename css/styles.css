@@ -1,0 +1,114 @@
+body{
+    width: 800px;
+    margin: 0 auto;
+}
+
+header nav {
+    background-color: yellow;
+    padding: 30px 10px;
+}
+
+header nav ul {
+    display: inline-block;
+    padding-right: 40px;
+}
+
+header nav ul:last-child {
+    padding-right: 0px;
+}
+
+header nav li {
+    text-transform: uppercase;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav li:last-child {
+    margin-right: 0px;
+}
+
+header nav a span {
+    font-weight: 800;
+    font-size: 20pt;
+}
+
+header nav li button {
+    padding: 10px;
+}
+
+.block-1, .block-2 {
+    display: flex;
+    padding: 0px 20px;
+}
+
+main div div img {
+    height: 300px
+}
+
+.text {
+    width: 500px;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main div div h1 {
+    font-weight: 400;
+    font-size: 25pt;
+    line-height: 35pt;
+    color: rgb(24, 109, 145);
+}
+
+main div div h1 span {
+    font-weight: 800;
+    color: rgb(32, 165, 222);
+    text-transform: uppercase;
+}
+
+.block-1 .text {
+    color: red;
+}
+
+.form {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+}
+
+main div div form input {
+    width: 200px;
+    border: solid 1px lightgray;
+}
+
+main div div form button {
+    text-transform: uppercase;
+    background-color: yellow;
+    width: 150px;
+    margin: 0 155px;
+}
+
+main div div h2 {
+    text-decoration: underline 2px dashed blue;
+    text-underline-offset: 8px;
+    text-transform: uppercase;
+    line-height: 45pt;
+    font-size: 20pt;
+    font-weight: 500;
+}
+
+main div div h3 {
+    text-transform: capitalize;
+    line-height: 32pt;
+    font-size: 18pt;
+}
+
+.block-2 {
+    background-color: rgb(251,251,250);
+}
+
+p {
+    padding-top: 10px;
+    line-height: 18pt;
+    font-size: 14pt;
+}
