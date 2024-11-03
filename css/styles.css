@@ -34,6 +34,8 @@ header nav a span {
 
 header nav li button {
     padding: 10px;
+    color: yellow;
+    background-color: rgb(6, 58, 111);
 }
 
 .block-1, .block-2 {
